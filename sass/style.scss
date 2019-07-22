@@ -1,0 +1,209 @@
+// My global setup styles
+// color variables***********************
+$lightgrey: #a8a8a8;
+$normalgrey: #9e9e9e;
+$darkgrey: #898989;
+$white: #fff;
+$primary-green: #13a0b2;
+$primary-black: #323232;
+
+// end of color variables****************
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+}
+// End of my styles
+// start of navbar section
+.nav-bar{
+    background-color: $lightgrey;
+    min-height: 70px;
+    .nav-logo{
+        padding: 18px 0;
+        a{
+            font-size: 35px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: $primary-green;
+            font-weight: 700;
+        }
+        a:hover span{
+            color: $primary-green;
+        }
+        span{
+            color: $white;
+            transition: all 0.5s ease-in-out;
+        }
+    }
+    .nav-topmenu{
+        margin: 20px 0;
+        float: right;
+        a.top-menu{
+            font-size: 16px;
+            line-height: 26px;
+            color: $white;
+            font-family: "Lato";
+            font-weight: 700;
+            margin: 0 15px;
+            transition: all 0.5s ease-in-out;
+            }
+        a:hover{
+            color: $primary-green;
+            }
+        }
+    .nav-shopbag{
+    position: relative;
+    margin: 20px 0;
+        a.shop-bag{
+            position: absolute;
+            top: 5px;
+            color: $white;
+            transition: all 0.5s ease-in-out;
+
+        }
+        a:hover{
+            color: $primary-green;
+        }
+        p.shop-count{
+            position: absolute;
+            color: $primary-green;
+            font-size: 12px;
+            line-height: 26px;
+            font-weight: 700;
+            top: -5px;
+            left: 22px;
+        }
+    }
+}
+// end of navbar section
+.main-intro{
+    background-color: $normalgrey;
+    .main-inner{
+        max-width: 610px;
+        padding: 190px 0 180px;
+        h1.main-text{
+            font-size: 60px;
+            line-height: 68px;
+            color: $white;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        }
+        p.main-description{
+            font-size: 22px;
+            line-height: 35px;
+            color: $white;
+            margin-bottom: 60px;
+        }
+        .main-btn{
+            .contact-btn{
+                padding: 15px 40px;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                font-size: 18px;
+                line-height: 20px;
+                color: $white;
+                font-family: "Lato";
+                font-weight: 600;
+                margin-right: 30px;
+                transition: all 0.5s ease-in-out;
+            }
+            .read-btn{
+                padding: 15px 40px;
+                border: 1px solid transparent;
+                background-color: $primary-green;
+                border-radius: 5px;
+                font-size: 18px;
+                line-height: 20px;
+                color: $white;
+                font-family: "Lato";
+                font-weight: 600;
+                transition: all 0.5s ease-in-out;
+
+            }
+            .contact-btn:hover, .read-btn:hover{
+                color: $primary-green;
+                background-color: $white;
+            }
+        }
+    }
+}
+// start of header main
+// end of header main
+// start of text choose us section
+.choose-us{
+    background-color: $white;
+    padding: 125px 0;
+    .text-intro{
+        h1{
+            text-transform: capitalize;
+            position: relative;
+            font-size: 36px;
+            line-height: 28px;
+            color: $primary-black;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        h1:after{
+            background-color: #13a0b2;
+            bottom: -25px;
+            content: '';
+            display: block;
+            height: 3px;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,0);
+            width: 60px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 28px;
+            color: $darkgrey;
+            font-family: "Lato";
+            margin-bottom: 50px;
+        }
+        
+    }
+    .choose-carts{
+        .choose-cart{
+        display: flex;
+        justify-content: space-between;
+            .cart-img{
+                margin-right: 15px;
+            }
+            h3.cart-title{
+                text-transform: capitalize;
+                font-size: 24px;
+                color: $primary-black;
+                font-weight: 600;
+            }
+            p.cart-short{
+                text-transform: uppercase;
+                font-size: 14px;
+                color: $darkgrey;
+                font-family: "Lato";
+                font-weight: 400;
+            }
+            p.cart-description{
+                font-size: 15px;
+                line-height: 24px;
+                color: #898989;
+                font-family: "Lato";
+                font-weight: 400;
+            }
+        }
+    }
+}
+// end of choose us section

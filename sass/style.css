@@ -1,0 +1,227 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.nav-bar {
+  background-color: #a8a8a8;
+  min-height: 70px;
+}
+
+.nav-bar .nav-logo {
+  padding: 18px 0;
+}
+
+.nav-bar .nav-logo a {
+  font-size: 35px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #13a0b2;
+  font-weight: 700;
+}
+
+.nav-bar .nav-logo a:hover span {
+  color: #13a0b2;
+}
+
+.nav-bar .nav-logo span {
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-bar .nav-topmenu {
+  margin: 20px 0;
+  float: right;
+}
+
+.nav-bar .nav-topmenu a.top-menu {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 700;
+  margin: 0 15px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-bar .nav-topmenu a:hover {
+  color: #13a0b2;
+}
+
+.nav-bar .nav-shopbag {
+  position: relative;
+  margin: 20px 0;
+}
+
+.nav-bar .nav-shopbag a.shop-bag {
+  position: absolute;
+  top: 5px;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-bar .nav-shopbag a:hover {
+  color: #13a0b2;
+}
+
+.nav-bar .nav-shopbag p.shop-count {
+  position: absolute;
+  color: #13a0b2;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 700;
+  top: -5px;
+  left: 22px;
+}
+
+.main-intro {
+  background-color: #9e9e9e;
+}
+
+.main-intro .main-inner {
+  max-width: 610px;
+  padding: 190px 0 180px;
+}
+
+.main-intro .main-inner h1.main-text {
+  font-size: 60px;
+  line-height: 68px;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.main-intro .main-inner p.main-description {
+  font-size: 22px;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.main-intro .main-inner .main-btn .contact-btn {
+  padding: 15px 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 600;
+  margin-right: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-intro .main-inner .main-btn .read-btn {
+  padding: 15px 40px;
+  border: 1px solid transparent;
+  background-color: #13a0b2;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-intro .main-inner .main-btn .contact-btn:hover, .main-intro .main-inner .main-btn .read-btn:hover {
+  color: #13a0b2;
+  background-color: #fff;
+}
+
+.choose-us {
+  background-color: #fff;
+  padding: 125px 0;
+}
+
+.choose-us .text-intro h1 {
+  text-transform: capitalize;
+  position: relative;
+  font-size: 36px;
+  line-height: 28px;
+  color: #323232;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.choose-us .text-intro h1:after {
+  background-color: #13a0b2;
+  bottom: -25px;
+  content: '';
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 60px;
+}
+
+.choose-us .text-intro p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #898989;
+  font-family: "Lato";
+  margin-bottom: 50px;
+}
+
+.choose-us .choose-carts .choose-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.choose-us .choose-carts .choose-cart .cart-img {
+  margin-right: 15px;
+}
+
+.choose-us .choose-carts .choose-cart h3.cart-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #323232;
+  font-weight: 600;
+}
+
+.choose-us .choose-carts .choose-cart p.cart-short {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #898989;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.choose-us .choose-carts .choose-cart p.cart-description {
+  font-size: 15px;
+  line-height: 24px;
+  color: #898989;
+  font-family: "Lato";
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
