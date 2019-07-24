@@ -1,5 +1,6 @@
 .nopadding {
   padding: 0;
+  margin: 0;
 }
 
 * {
@@ -562,5 +563,140 @@ a:hover {
   font-family: "Lato";
   font-weight: 700;
   text-align: center;
+}
+
+.contact-form {
+  background-color: #fdfdfd;
+  padding-top: 130px;
+}
+
+.contact-form .contact-title h3 {
+  position: relative;
+  font-size: 36px;
+  letter-spacing: 1px;
+  color: #323232;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.contact-form .contact-title h3:after {
+  background-color: #13a0b2;
+  content: '';
+  top: 65px;
+  display: block;
+  height: 3px;
+  left: 5%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 50px;
+}
+
+.contact-inner {
+  padding: 20px;
+  max-width: 460px;
+}
+
+.contact-inner input[type=text], .contact-inner [type=email] {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  height: 30px;
+  padding: 5px;
+  background-color: #fdfdfd;
+}
+
+.contact-inner label {
+  font-size: 15px;
+  color: #898989;
+  font-family: "Lato";
+  margin-bottom: 10px;
+  background-color: #fdfdfd;
+}
+
+.contact-inner label[for='select'] {
+  padding-bottom: 70px;
+}
+
+.contact-inner select {
+  float: right;
+  border: none;
+  background-color: #fdfdfd;
+}
+
+.contact-inner textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  height: 130px;
+  background-color: #fdfdfd;
+}
+
+.contact-inner .submit-btn {
+  margin-left: 40px;
+  font-size: 18px;
+  color: #13a0b2;
+  font-family: "Lato";
+  font-weight: 700;
+  border: none;
+  background-color: none;
+}
+
+.company-info {
+  padding: 70px 0;
+  background-color: #282f39;
+}
+
+.company-info img {
+  margin-bottom: 25px;
+}
+
+.company-info p {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.footer {
+  padding: 65px 0;
+}
+
+.footer .social-links {
+  margin-bottom: 15px;
+}
+
+.footer .social-links ul, .footer .social-links li {
+  display: inline-block;
+}
+
+.footer .social-links a.social-btn {
+  margin: 0 15px;
+  color: #323232;
+}
+
+.footer .social-links svg {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer .social-links .social-btn:hover svg {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.footer .page-copyright {
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer .page-copyright span {
+  color: #13a0b2;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
