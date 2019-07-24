@@ -1,2 +1,2 @@
 # ganja-bootstrap
-Ganja on Bootstrap
+Ganja/Bootstrap
